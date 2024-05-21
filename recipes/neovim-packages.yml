@@ -1,0 +1,11 @@
+type: rpm-ostree
+install:
+  - dotnet-runtime-8.0
+  - fd-find
+  - gcc
+  - gcc-c++
+  - glibc
+  - lua
+  - neovim
+  - nodejs
+  - ripgrep

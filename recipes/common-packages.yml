@@ -1,0 +1,15 @@
+- type: rpm-ostree
+  install:
+    - pcsc-lite
+    - pcsc-tools
+    - nss-tools
+    - nss-util
+    - opensc
+    - screen
+    - task
+    - ranger
+
+- type: systemd
+  system:
+    enabled:
+      - pcscd.service
