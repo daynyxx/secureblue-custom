@@ -4,7 +4,7 @@ name: wayblue-hyprland-userns
 description: Wayblue hyprland with my base config and pcscd
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/secureblue/aurora-dx-main-userns-hardened
+base-image: ghcr.io/secureblue/wayblue-hyprland-main-userns-hardened
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
