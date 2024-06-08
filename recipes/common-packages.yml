@@ -9,6 +9,8 @@ modules:
       - screen
       - task
       - ranger
+      - stow
+      - alacritty
 
   - type: systemd
     system:

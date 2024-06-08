@@ -1,10 +1,10 @@
 # image will be published to ghcr.io/<user>/<name>
-name: wayblue-hyprland-userns
+name: sericea-main-userns-hardened
 # description will be included in the image's metadata
-description: Wayblue hyprland with my base config and pcscd
+description: Sericea customized with some extra programs
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/secureblue/wayblue-hyprland-main-userns-hardened
+base-image: ghcr.io/secureblue/sericea-main-userns-hardened
 image-version: latest # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
